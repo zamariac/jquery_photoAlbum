@@ -1,0 +1,19 @@
+{
+  "name": "dist",
+  "version": "0.0.0",
+  "authors": [
+    "Maria Zamora <Zamora.Mariac@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
+  }
+}
