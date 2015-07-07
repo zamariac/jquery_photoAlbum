@@ -1,7 +1,7 @@
 $(document).on('ready', function(e){
 	e.preventDefault();
 		
-		$("nav").show();
+		$("nav a").show();
 		$(".page").hide();
 
 
@@ -15,11 +15,27 @@ $(document).on('ready', function(e){
 			var $target = $(this);
 			console.log($target);
 			var targetName = $target.attr('href');
+
 			console.log(targetName)
-			$("nav").hide();
+			$("nav ").hide();
 			$(targetName).show();
+			$("header").hide();
+
 
 		});
+
+		$(".titles").on('click', function(e){
+			console.log ("titles");
+			$("nav").show();
+			$(".page").hide();
+			$("header").show();
+
+
+		});
+
+
+
+
 
 
 	
