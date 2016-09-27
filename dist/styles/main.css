@@ -1,0 +1,76 @@
+
+header{
+	background-color: black;
+	height: 6.25em;
+	border-bottom: 1.25em solid white;
+	padding-top: 1.25em;
+	text-align: center;
+}
+
+#mainTitle {
+	font-size: 25px;
+	font-family: helvetica;
+	color: white;
+}
+
+.side-nav-menu {
+	padding-top: 10em;
+	background-color: #333333;
+	border-right: .1em black solid;
+	height: 60em;	
+}
+
+.side-nav-button{
+	border-top: .1em black solid;
+	border-left: .1em black solid;
+	border-right: .4em black solid;
+	border-bottom: .4em black solid;
+	background-color: white;
+	padding: .5em;
+	margin: .5em;
+	width: 90%;
+}
+
+.nav{
+	padding-left: 1em;
+}
+
+.img-responsive {
+        height: 13.75em;
+  		width: 100%;
+  		margin-top: 3em;
+        }
+
+.title{
+	text-align: center;
+	background: black;
+	color: white;
+	width: 100%;
+	margin-bottom: 20px;
+	margin-top: 1em;
+	padding: .1em;
+}
+
+.titles {
+	background-color: black;
+	height: 100px;
+	color: white;
+	font-family: helvetica;
+	text-align: center;
+	font-size: 25px;
+	padding-top: 20px;
+}
+
+
+
+@media (min-width: 620px) {
+	
+}
+
+
+
+
+
+
+
+
